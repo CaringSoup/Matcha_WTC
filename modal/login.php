@@ -121,7 +121,7 @@
             <input type="password" class="form-control" name="confirm_password" placeholder="Confirm Password" required="required">
         </div>        
         <div class="form-group">
-			<label class="checkbox-inline"><input type="checkbox" required="required"> I accept the <a href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a></label>
+			<label class="checkbox-inline"><input type="checkbox" required="required"> I accept that I am a lonely single person with no one to go home to.</label>
 		</div>
 		<div class="form-group">
             <button type="submit" class="btn btn-success btn-lg btn-block">Register Now</button>
