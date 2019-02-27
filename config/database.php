@@ -3,13 +3,7 @@
 $DB_DSN = "127.0.0.1";
 $DB_USER = "root";
 $DB_PASSWORD = "Emshareed16";
-$DB_NAME = 'camagru';
-
-/*
-ini_set('display_startup_errors', 1);
-ini_set('display_errors', 1);
-error_reporting(-1);
-*/
+$DB_NAME = 'matcha';
 
 try
 {
