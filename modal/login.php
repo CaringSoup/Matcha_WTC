@@ -103,7 +103,7 @@
 </head>
 <body>
 <div class="signup-form">
-    <form action="modal/confirmation.php" method="post">
+    <form action="login2.php" method="post">
 		<h2>Register</h2>
 		<p class="hint-text">New to online dating? Lets create your account and get you ready to meet the sad human of your dreams!</p>
         <div class="form-group">

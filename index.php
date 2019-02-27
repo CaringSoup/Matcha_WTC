@@ -31,8 +31,18 @@
         <li><a href="#">Matched</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="modal/login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-        <li><a href="modal/logout.php"></span>Logout</a></li>
+      <?php
+        if (!isset($_SESSION['username']))
+        {
+        ?>
+            <li><a href="modal/login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <?php
+        } else { 
+        ?>
+            <li><a href="modal/logout.php"></span>Logout</a></li>
+        <?php
+        }
+        ?>
       </ul>
     </div>
   </div>
@@ -41,7 +51,7 @@
 <div class="container-fluid text-center">    
   <div class="row content">
     <div class="col-sm-2 sidenav">
-      <p><a href="#">Link</a></p>
+      <p><a href="#">Link to something</a></p>
       <p><a href="#">Link</a></p>
       <p><a href="#">Link</a></p>
     </div>
