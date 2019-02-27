@@ -8,6 +8,7 @@
 <title>Registration Form</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <style type="text/css">
@@ -104,7 +105,7 @@
 <div class="signup-form">
     <form action="/examples/actions/confirmation.php" method="post">
 		<h2>Register</h2>
-		<p class="hint-text">Create your account. It's free and only takes a minute.</p>
+		<p class="hint-text">New to online dating? Lets create your account and get you ready to meet the sad human of your dreams!</p>
         <div class="form-group">
 			<div class="row">
 				<div class="col-xs-6"><input type="text" class="form-control" name="first_name" placeholder="First Name" required="required"></div>
@@ -121,10 +122,10 @@
             <input type="password" class="form-control" name="confirm_password" placeholder="Confirm Password" required="required">
         </div>        
         <div class="form-group">
-			<label class="checkbox-inline"><input type="checkbox" required="required"> I accept that I am a lonely single person with no one to go home to.</label>
+			<label class="checkbox-inline"><input type="checkbox" required="required"> I accept that I am a lonely single human with no one to go home to and will one day tell my kids how I met their mother when they are lonely.</label>
 		</div>
 		<div class="form-group">
-            <button type="submit" class="btn btn-success btn-lg btn-block">Register Now</button>
+            <button type="submit" class="btn btn-success btn-lg btn-block">Create account</button>
         </div>
     </form>
 	<div class="text-center">Already have an account? <a href="#">Sign in</a></div>
